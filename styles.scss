@@ -23,7 +23,7 @@ $clr-grayishblue: hsl(210, 46%, 95%);
 }
 
 body{
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Barlow Semi Condensed', sans-serif;
     padding: 50px 25px;
     background-color: $clr-grayishblue;
@@ -35,7 +35,7 @@ main {
         gap: 25px;
 
         .card{
-            padding: 35px;
+            padding: 25px;
             border-radius: 10px;
 
             .card__header{
@@ -45,13 +45,12 @@ main {
                 .image__container{
                     img{
                         border-radius: 50%;
-                        width: 35px;
+                        width: 30px;
                     }
                 }
                 .text__container{
                     .card__name{
                         font-weight: 500;
-                        font-size: 1.2em;
                     }
                     .card__verified{
                         opacity: 50%;
@@ -62,14 +61,13 @@ main {
             .card__main{
                 .card__title{
                     margin-bottom: 20px;
-                    font-size: 1.59em;
+                    font-size: 1.3em;
                     font-weight: 600;
                 }
                 .card__review{
-                    font-size: 1.15em;
-                    line-height: 1.5;
                     opacity: 70%;
-                    font-weight: 500;
+                    font-weight: 300;
+                    font-size: 14px;
                 }
             }
         }
@@ -162,7 +160,7 @@ main {
         justify-content: center;
     }
     .container{
-        max-width: 1250px;
+        max-width: 1110px;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, min-content);
     }
